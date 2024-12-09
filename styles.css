@@ -243,3 +243,46 @@ p {
     text-decoration: underline;
     color: #0056b3; /* Darker shade for hover */
 }
+
+/* Style for all links */
+a {
+    color: #007BFF; /* A visible blue color for links */
+    text-decoration: none; /* Remove underline for cleaner look */
+    font-weight: bold;
+}
+
+/* Hover effect for links */
+a:hover {
+    text-decoration: underline; /* Add underline on hover for clarity */
+    color: #0056b3; /* Darker shade of blue for hover */
+}
+
+/* Style for links in the sidebar */
+.sidebar nav ul li a {
+    color: #007BFF; /* Ensure links in the sidebar are visible */
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover and active state for sidebar links */
+.sidebar nav ul li a:hover,
+.sidebar nav ul li a.active {
+    background-color: #eaeaea;
+    color: #0056b3;
+}
+
+/* Style for links in content */
+.prototype-link {
+    font-size: 1.2rem;
+    color: #007BFF; /* Highlighted link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.prototype-link:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker shade for hover */
+}
